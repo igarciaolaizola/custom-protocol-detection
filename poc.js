@@ -1,5 +1,5 @@
 $(function () {
-    $("div[href]").click(function (event) {
+    $("a[href]").click(function (event) {
         window.protocolCheck($(this).attr("href"),
             function () {
                 alert("fail");
